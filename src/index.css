@@ -1,13 +1,70 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    margin: 0;
+    padding: 0;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  table,th,td {
+    border: 1px solid #312e2e;
+    padding: 10px;
+    border-collapse:collapse ;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th,td {
+    min-width: 100px;
+  }
+  
+  tbody tr:hover {
+   background-color: gray;
+  }
+  
+  thead {
+    background-color: bisque;
+  }
+  
+  input[type=search] {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+  }
+  
+  select, option {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    height: 34px;
+  }
+  
+  
+  input::placeholder {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .empty-msg {
+    border: 1px solid #312e2e;
+    margin: 5px;
+    width: 100%;
+  }

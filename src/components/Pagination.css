@@ -1,0 +1,20 @@
+.Pagination {
+    width: 100%;
+}
+
+.Pagination-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #312e2e;
+}
+
+.Pagination-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Pagination-action button {
+    padding:6px 10px;
+}
